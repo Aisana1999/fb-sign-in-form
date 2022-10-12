@@ -8,12 +8,14 @@
 }
 
 h1 {
-  font-size: 55px;
+  font-size: 75px;
   color: #1877f2;
   font-family: sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-right: 700px;
+  font-weight: bold;
 }
 h2 {
   color: black;
@@ -23,26 +25,49 @@ h2 {
   align-items: center;
   font-weight: normal;
   font-size: 28px;
+  margin-right: 700px;
 }
 
 .goal {
-  height: 500px;
   display: flex;
-  justify-content: end;
-  align-items: center;
   width: 400px;
-  padding: 10px;
-}
-
-.logo {
-  height: 20px;
-}
-
-.btn btn-primary {
-  font-size: 15px;
-}
-.btn btn-success {
+  margin-top: -194px;
+  margin-right: 160px;
+  float: right;
+  border-radius: 12px;
+  background-color: white;
+  height: 355px;
   text-align: center;
-  font-size: 20px;
-  background-color: #6bba62;
+}
+
+.card {
+  margin-top: 10px;
+  margin-left: -10px;
+  border-radius: 8px;
+  margin-right: -10px;
+  padding: 17px;
+  width: 332px;
+}
+.logo {
+  float: right;
+  background-color: white;
+  margin-top: 12px;
+  padding: 20px;
+}
+
+.btn {
+  font-size: 18px;
+  margin-top: 15px;
+  background-color: #1877f2;
+  padding: 16px;
+  width: 100%;
+  border-radius: 8px;
+  color: white;
+  font-family: sans-serif;
+}
+.button {
+  background-color: #1b9c24;
+  margin-top: 15px;
+  margin-left: 60px;
+  margin-right: 60px;
 }
