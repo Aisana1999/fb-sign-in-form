@@ -182,6 +182,10 @@ footer > a {
   color: #a6a8aa;
 }
 @media screen and (max-width: 470px) {
+  #h1 {
+    width: 100%;
+    font-size: 18px;
+  }
   #h2 {
     width: 100%;
     font-size: 18px;
