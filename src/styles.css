@@ -121,24 +121,41 @@ input[type="password"]:focus {
   background-color: #166fe5;
   cursor: pointer;
 }
+#green-button {
+  background-color: #42b72a;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+  height: 100px;
+  width: 60%;
+  margin-top: 20px;
+}
+#green-button:hover {
+  background: color #36a420;
+  cursor: pointer;
+}
+p {
+  font-size: 15px;
+  position: absolute;
+  bottom: -55px;
+}
 footer {
   background-color: white;
-  font-size: 16px;
-  color: black;
-  margin-top: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 98vw;
+  padding: 20px;
+  color: #a6a8aa;
+  font-size: 12px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  word-spacing: 12px;
+  line-height: 20px;
 }
-footer a {
-  color: black;
-  background-color: white;
-  font-weight: bold;
-}
-.btn {
-  padding: 7px;
-  margin-top: 15px;
-  background-color: white;
-  margin-left: 60px;
-  margin-right: 60px;
-}
-.btn button {
-  background-color: #1b9c24;
+footer > a {
+  text-decoration: none;
+  color: #a6a8aa;
 }
