@@ -85,8 +85,29 @@ hr {
   border: none;
 }
 #login > input[type="text"],
+input[type="email"] {
+  height: 15%;
+  margin: 8px 0;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 16px;
+  width: 95%;
+  border: 1.5px SOLID #eeeff0;
+}
+#login > input[type="email"] {
+  margin-bottom: 3px;
+}
+#login > input[type="email"],
+focus,
+input[type="password"]:focus {
+  outline: none;
+  border: 1.5px solid blue;
+  box-shadow: 0 0 5px #719ece;
+  caret-color: blue;
+}
+#login > input[type="text"],
 input[type="password"] {
-  height: 35%;
+  height: 15%;
   margin: 8px 0;
   border-radius: 5px;
   padding-left: 10px;
@@ -158,4 +179,35 @@ footer {
 footer > a {
   text-decoration: none;
   color: #a6a8aa;
+}
+@media screen and (max-width: 470px) {
+  #h2 {
+    width: 100%;
+    font-size: 18px;
+  }
+  footer {
+    position: relative;
+  }
+  #textbox {
+    display: block;
+    padding: 40px;
+  }
+  #login {
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  #lemon {
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 12px;
+    font-size: 16px;
+    height: 200px;
+  }
+}
+@media screen and (min-width: 471px) and(max-width:1000px) {
+  #lemon {
+    background-color: #719ece;
+  }
 }
