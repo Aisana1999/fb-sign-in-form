@@ -28,7 +28,7 @@ h2 {
   margin-right: 700px;
 }
 
-.goal {
+.container {
   display: flex;
   width: 400px;
   margin-top: -194px;
@@ -40,7 +40,7 @@ h2 {
   text-align: center;
 }
 
-.card {
+.form {
   margin-top: 10px;
   margin-left: -10px;
   border-radius: 8px;
@@ -48,14 +48,14 @@ h2 {
   padding: 17px;
   width: 332px;
 }
-.logo {
+.form input {
   float: right;
   background-color: white;
   margin-top: 12px;
   padding: 20px;
 }
 
-.btn {
+.button {
   font-size: 18px;
   margin-top: 15px;
   background-color: #1877f2;
@@ -65,9 +65,24 @@ h2 {
   color: white;
   font-family: sans-serif;
 }
-.button {
-  background-color: #1b9c24;
+footer {
+  background-color: white;
+  font-size: 16px;
+  color: black;
+  margin-top: 10px;
+}
+footer a {
+  color: black;
+  background-color: white;
+  font-weight: bold;
+}
+.btn {
+  padding: 7px;
   margin-top: 15px;
+  background-color: white;
   margin-left: 60px;
   margin-right: 60px;
+}
+.btn button {
+  background-color: #1b9c24;
 }
