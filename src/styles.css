@@ -52,7 +52,7 @@ h2 {
   font-weight: normal;
   line-height: 32px;
   padding-right: 20px;
-  margin: 20px 0 5px 0;
+  margin: 18px 0 18px 0;
   box-shadow: 6px 6px 5px lightgrey;
   position: relative;
   left: 10vw;
@@ -64,11 +64,11 @@ h2 {
   flex-direction: column;
   top: 18vh;
   justify-content: flex-start;
-  padding: 10 10 20 10;
+  padding: 10px 10px 20px 10px;
   align-items: center;
 }
 #login > a {
-  margin: 18 0;
+  margin: 18px 0 18px;
   text-decoration: none;
   font-size: 15px;
   color: #1877f2;
@@ -95,7 +95,7 @@ input[type="email"] {
 }
 #login > input[type="email"] {
   margin-bottom: 3px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 #login > input[type="email"],
 focus,
@@ -116,7 +116,7 @@ input[type="password"] {
   border: 1.5px SOLID #eeeff0;
 }
 #login > input[type="password"] {
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 #login > input[type="text"],
 focus,
