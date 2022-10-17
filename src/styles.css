@@ -152,7 +152,7 @@ input[type="password"]:focus {
   height: 50px;
   width: 60%;
 
-  margin: 40px 0 0;
+  margin: 18px 0 18px;
 }
 #green-button:hover {
   background: color #36a420;
